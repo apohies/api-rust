@@ -12,6 +12,7 @@ pub async fn hello1(name: web::Path<String>) -> impl Responder {
 }
 
 
+
 pub fn init_routes(cfg: &mut web::ServiceConfig) {
 
     cfg.service(
